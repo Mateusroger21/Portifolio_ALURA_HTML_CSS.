@@ -125,29 +125,29 @@ a {
     font-weight: 450;
 }
 
-@media (max-width: 1200px ) {
+@media (max-width: 1200px) {
     .cabecalho {
         padding: 6%;
     }
-    
-    .cabecalho__menu{
+
+    .cabecalho__menu {
         justify-content: center;
     }
-    
+
     .apresentacao {
-    flex-direction: column-reverse;
-    padding: 5%;     
-    } 
-    
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
     .apresentacao__conteudo {
         width: auto;
     }
 
     .apresentação__imagem {
-       width: 70%;
+        width: 70%;
     }
 
     .apresentacao_links_navegacao {
         padding: 15px 25px;
     }
-} 
+}
