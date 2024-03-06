@@ -112,8 +112,7 @@ a {
 }
 
 .apresentação__imagem {
-    height: 450%;
-    width: 40%;
+    width: 50%;
 }
 
 .rodape {
@@ -128,18 +127,28 @@ a {
 
 @media (max-width: 1200px ) {
     .cabecalho {
-        padding: 6%;;
-    
+        padding: 6%;
+
     }
     .cabecalho__menu{
         justify-content: center;
     }
     
     .apresentacao {
-    flex-direction: column-reverse;     
+    flex-direction: column-reverse;
+    padding: 5%;     
     } 
     
     .apresentacao__conteudo {
         width: auto;
+    }
+
+    .apresentação__imagem {
+       width: 70%;
+    }
+
+    .apresentacao_links_navegacao {
+        padding: 15px 25px;
+
     }
 } 
