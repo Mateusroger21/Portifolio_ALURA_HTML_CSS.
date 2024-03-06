@@ -128,8 +128,8 @@ a {
 @media (max-width: 1200px ) {
     .cabecalho {
         padding: 6%;
-
     }
+    
     .cabecalho__menu{
         justify-content: center;
     }
@@ -149,6 +149,5 @@ a {
 
     .apresentacao_links_navegacao {
         padding: 15px 25px;
-
     }
 } 
